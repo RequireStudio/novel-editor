@@ -55,7 +55,7 @@ const vscodeBranch = (() => {
 })();
 
 const skipMonacoEditorCore = (() => {
-	return /** @type {'true'|'false'} */ (String(npmExists('monaco-editor-core', version)));
+	return /** @type {'true'|'false'} */ (String(npmExists('novel-editor-core', version)));
 })();
 
 const skipMonacoEditor = (() => {
