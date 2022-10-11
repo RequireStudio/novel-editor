@@ -1,10 +1,10 @@
 {
-	"name": "monaco-editor",
-	"version": "0.34.0",
-	"vscode": "4b8a47f3570a4a05ace9d00ae0df044b55befcd5",
+	"name": "novel-editor",
+	"version": "0.0.2",
+	"vscode": "fc0e844c878c763c86badb718c0956237724f104",
 	"private": true,
-	"description": "A browser based code editor",
-	"author": "Microsoft Corporation",
+	"description": "A browser based novel editor",
+	"author": "rs-beiyou",
 	"license": "MIT",
 	"scripts": {
 		"build-website": "ts-node ./build/website && npm run typedoc",
@@ -24,13 +24,14 @@
 		"deps-all-remove": "ts-node ./build/npm/removeAll",
 		"deps-all-install": "ts-node ./build/npm/installAll",
 		"typedoc": "cd website/typedoc && \"../../node_modules/.bin/typedoc\" --options ./typedoc.json",
-		"watch": "tsc -w -p ./src"
+		"watch": "tsc -w -p ./src",
+		"pub": "pnpm publish release/ --access public"
 	},
 	"typings": "./esm/vs/editor/editor.api.d.ts",
 	"module": "./esm/vs/editor/editor.main.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/microsoft/monaco-editor"
+		"url": "https://github.com/requirestudio/novel-editor"
 	},
 	"devDependencies": {
 		"@types/mocha": "^9.1.0",
@@ -44,7 +45,7 @@
 		"jsdom": "^19.0.0",
 		"jsonc-parser": "^3.0.0",
 		"mocha": "^9.2.0",
-		"monaco-editor-core": "0.34.0-dev.20220720",
+		"novel-editor-core": "0.0.2",
 		"playwright": "^1.18.1",
 		"prettier": "^2.5.1",
 		"pretty-quick": "^3.1.3",

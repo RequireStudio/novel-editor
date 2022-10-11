@@ -158,7 +158,7 @@ function buildOneAMD(
 		plugins: [
 			alias({
 				'vscode-nls': path.join(__dirname, '../build/fillers/vscode-nls.ts'),
-				'monaco-editor-core': path.join(__dirname, '../src/fillers/monaco-editor-core-amd.ts')
+				'novel-editor-core': path.join(__dirname, '../src/fillers/novel-editor-core-amd.ts')
 			})
 		],
 		external: ['vs/editor/editor.api', ...(options.external || [])]

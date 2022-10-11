@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-import type { languages } from '../../fillers/monaco-editor-core';
+import type { languages } from '../../fillers/novel-editor-core';
 
 const bounded = (text: string) => `\\b${text}\\b`;
 

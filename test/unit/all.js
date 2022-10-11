@@ -6,9 +6,9 @@ const path = require('path');
 requirejs.config({
 	baseUrl: '',
 	paths: {
-		'vs/fillers/monaco-editor-core': 'out/amd/fillers/monaco-editor-core-amd',
+		'vs/fillers/novel-editor-core': 'out/amd/fillers/novel-editor-core-amd',
 		'vs/basic-languages': 'out/amd/basic-languages',
-		vs: './node_modules/monaco-editor-core/dev/vs'
+		vs: './node_modules/novel-editor-core/dev/vs'
 	},
 	nodeRequire: require
 });
