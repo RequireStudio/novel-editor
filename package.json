@@ -1,6 +1,6 @@
 {
 	"name": "novel-editor",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"vscode": "a3a13d893dfcf679ad49da3cbc7a99d840227a4d",
 	"private": true,
 	"description": "A browser based novel editor",
