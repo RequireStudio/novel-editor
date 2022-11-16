@@ -1,6 +1,6 @@
 {
 	"name": "novel-editor",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"vscode": "a3a13d893dfcf679ad49da3cbc7a99d840227a4d",
 	"private": true,
 	"description": "A browser based novel editor",
@@ -45,7 +45,7 @@
 		"jsdom": "^19.0.0",
 		"jsonc-parser": "^3.0.0",
 		"mocha": "^9.2.0",
-		"novel-editor-core": "0.0.4",
+		"novel-editor-core": "0.0.5",
 		"playwright": "^1.18.1",
 		"prettier": "^2.5.1",
 		"pretty-quick": "^3.1.3",
